@@ -1,3 +1,5 @@
 FROM maven
-COPY ./ ./
-CMD ["mvn","clean","install","exec:java@crawler"]
+COPY pom.xml .
+RUN mvn clean install
+COPY src ./src
+CMD ["mvn","spring-boot:run"]
