@@ -1,4 +1,7 @@
-# Pinegle
+# PineCrawler - IN DEVELOPMENT
+
+* Web framework
+  * Spring Boot
 
 * A web crawler
   * No javascript support, only static content
